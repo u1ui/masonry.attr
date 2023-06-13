@@ -1,33 +1,29 @@
-# .u1-masonry - class
-Most used case for grid-elements
+# [u1-masonry] - attribute
 
-handy util-class to make a auto-column grid
+handy util-attribute to make a masonry layout
 
 - default gap (from classless.css variables)
-- respecting available-space if item-(min)-width > available
-- flexbox fallback
+- grid fallback
+- grid masonry fallback if supported
 
 ## Ussage
 
 ```html
-<div class=u1-masonry>
+<div u1-masonry>
     <div>item1<br>heigter</div>
     <div>item2</div>
     <div>item3</div>
-    <div>item4</div>
-    <div>item5</div>
-    <div>item6</div>
     <div>item7</div>
 </div>
 ```
 
 ```css
-.u1-masonry {
+[u1-masonry] {
     --u1-Gap:2rem;
     --u1-Col-gap:1rem;
     --u1-Items-width:8rem;
 }
-.u1-masonry > * {
+[u1-masonry] > * {
     border:1px solid black;
     padding:.5em;
 }
@@ -36,13 +32,14 @@ handy util-class to make a auto-column grid
 ## Install
 
 ```html
-<link href="https://cdn.jsdelivr.net/gh/u1ui/auto-grid.class@x.x.x/auto-grid.min.css" rel=stylesheet>
+<link href="https://cdn.jsdelivr.net/gh/u1ui/masonry.attr@x.x.x/masonry.min.css" rel=stylesheet>
+<script src="https://cdn.jsdelivr.net/gh/u1ui/masonry.attr/masonry.min.js" type=module>
 ```
 
 ## Demos
 
-[minimal.html](http://gcdn.li/u1ui/auto-grid.class@main/tests/minimal.html)  
-[test.html](http://gcdn.li/u1ui/auto-grid.class@main/tests/test.html)  
+[minimal.html](http://gcdn.li/u1ui/masonry.attr@main/tests/minimal.html)  
+[test.html](http://gcdn.li/u1ui/masonry.attr@main/tests/test.html)  
 
 ## About
 
