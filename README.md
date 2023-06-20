@@ -33,7 +33,7 @@ handy util-attribute to make a masonry layout
 
 ```html
 <link href="https://cdn.jsdelivr.net/gh/u1ui/masonry.attr@x.x.x/masonry.min.css" rel=stylesheet>
-<script src="https://cdn.jsdelivr.net/gh/u1ui/masonry.attr/masonry.min.js" type=module>
+<script src="https://cdn.jsdelivr.net/gh/u1ui/masonry.attr/masonry.min.js" type=module></script>
 ```
 
 ## Demos
