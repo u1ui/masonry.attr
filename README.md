@@ -1,4 +1,5 @@
 # [u1-masonry] - attribute
+null
 
 handy util-attribute to make a masonry layout
 
@@ -13,6 +14,9 @@ handy util-attribute to make a masonry layout
     <div>item1<br>heigter</div>
     <div>item2</div>
     <div>item3</div>
+    <div>item4</div>
+    <div>item5</div>
+    <div>item6</div>
     <div>item7</div>
 </div>
 ```
@@ -32,8 +36,7 @@ handy util-attribute to make a masonry layout
 ## Install
 
 ```html
-<link href="https://cdn.jsdelivr.net/gh/u1ui/masonry.attr@x.x.x/masonry.min.css" rel=stylesheet>
-<script src="https://cdn.jsdelivr.net/gh/u1ui/masonry.attr/masonry.min.js" type=module></script>
+<script src="https://cdn.jsdelivr.net/gh/u1ui/masonry.attr@x.x.x/masonry.min.js" type=module></script>
 ```
 
 ## Demos
