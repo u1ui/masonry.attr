@@ -58,7 +58,6 @@ function cssLengthToPixelsStyle(element, property) {
 }
 function cssLengthToPixels(length, element) {
     if (length === undefined) return undefined;
-    console.log(length)
     length = length.trim();
     const value = parseFloat(length);
     const unit = length.match(/\D+$/)[0];
