@@ -7,7 +7,7 @@ handy util-attribute to make a masonry layout
 - grid fallback
 - grid masonry fallback if supported
 
-## Ussage
+## Usage
 
 ```html
 <div u1-masonry>
