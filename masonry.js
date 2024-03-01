@@ -45,7 +45,7 @@ function sortByHeight(a, b){
 }
 
 
-import {SelectorObserver} from 'https://cdn.jsdelivr.net/gh/u1ui/SelectorObserver.js@3.6.0/SelectorObserver.min.js'
+import {SelectorObserver} from 'https://cdn.jsdelivr.net/gh/u1ui/SelectorObserver.js@4.0.0/SelectorObserver.min.js'
 new SelectorObserver({
     on: el => new mesonry(el),
 }).observe('[u1-masonry]');
